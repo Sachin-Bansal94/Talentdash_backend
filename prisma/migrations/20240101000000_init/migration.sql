@@ -53,6 +53,8 @@ CREATE UNIQUE INDEX "Company_slug_key" ON "Company"("slug");
 -- CreateIndex
 CREATE INDEX "Company_normalized_name_idx" ON "Company"("normalized_name");
 
+CREATE INDEX "Company_name_idx" ON "Company"("name"); 
+
 -- CreateIndex
 CREATE INDEX "Salary_company_id_level_location_idx" ON "Salary"("company_id", "level", "location");
 

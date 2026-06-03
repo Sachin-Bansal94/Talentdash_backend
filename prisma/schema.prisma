@@ -54,6 +54,7 @@ model Company {
   salaries         Salary[]
 
   @@index([normalized_name])
+  @@index([name])
 }
 
 model Salary {

@@ -142,6 +142,14 @@ const SALARY_RECORDS: SalaryInput[] = [
   { companyNorm: 'zepto', role: 'Software Engineer',        level: 'SDE_II',  location: 'Mumbai',       currency: 'INR', experience_years: 3,  base_salary: 2000000n, bonus: 250000n,  stock: 700000n,    source: 'CONTRIBUTOR', confidence_score: 0.78 },
   { companyNorm: 'zepto', role: 'Senior Engineer',          level: 'SDE_III', location: 'Mumbai',       currency: 'INR', experience_years: 7,  base_salary: 3200000n, bonus: 400000n,  stock: 1200000n,   source: 'CONTRIBUTOR', confidence_score: 0.76 },
   { companyNorm: 'zepto', role: 'Staff Engineer',           level: 'STAFF',   location: 'Mumbai',       currency: 'INR', experience_years: 12, base_salary: 5000000n, bonus: 800000n,  stock: 2500000n,   source: 'CONTRIBUTOR', confidence_score: 0.74 },
+
+  // Extra records to reach 61+
+{ companyNorm: 'google',    role: 'ML Engineer',          level: 'L5',     location: 'Bengaluru',  currency: 'INR', experience_years: 7,  base_salary: 6000000n, bonus: 1200000n, stock: 3500000n, source: 'CONTRIBUTOR', confidence_score: 0.88 },
+{ companyNorm: 'amazon',    role: 'Data Engineer',         level: 'SDE_II', location: 'Pune',       currency: 'INR', experience_years: 5,  base_salary: 2900000n, bonus: 400000n,  stock: 1100000n, source: 'CONTRIBUTOR', confidence_score: 0.83 },
+{ companyNorm: 'meta',      role: 'Frontend Engineer',     level: 'IC4',    location: 'Hyderabad',  currency: 'INR', experience_years: 5,  base_salary: 4200000n, bonus: 800000n,  stock: 2200000n, source: 'CONTRIBUTOR', confidence_score: 0.85 },
+{ companyNorm: 'microsoft', role: 'DevOps Engineer',       level: 'SDE_II', location: 'Delhi',      currency: 'INR', experience_years: 4,  base_salary: 3200000n, bonus: 500000n,  stock: 1300000n, source: 'CONTRIBUTOR', confidence_score: 0.82 },
+{ companyNorm: 'nvidia',    role: 'AI Research Engineer',  level: 'IC5',    location: 'Bengaluru',  currency: 'INR', experience_years: 10, base_salary: 9000000n, bonus: 2000000n, stock: 6000000n, source: 'CONTRIBUTOR', confidence_score: 0.90 },
+{ companyNorm: 'razorpay',  role: 'Platform Engineer',     level: 'L4',     location: 'Bengaluru',  currency: 'INR', experience_years: 3,  base_salary: 2400000n, bonus: 300000n,  stock: 800000n,  source: 'CONTRIBUTOR', confidence_score: 0.81 },
 ];
 
 // ────────────────────────────────────────────────────────────────────────────
