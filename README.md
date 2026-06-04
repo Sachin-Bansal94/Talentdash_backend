@@ -2,7 +2,7 @@
 
 Salary intelligence API for TalentDash. Handles ingestion, normalisation, querying, and comparison of compensation data across companies and levels.
 
-**Live URL:** `[https://talentdash.onrender.com](https://talentdash-backend-2yo6.onrender.com/)`
+**Live URL:** `[https://talentdash-backend-2yo6.onrender.com](https://talentdash-backend-2yo6.onrender.com)`
 
 > Replace this with your actual Render URL once deployed.
 
@@ -15,7 +15,7 @@ No database setup required — just clone, install, and run.
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/talentdash.git
+git clone https://github.com/Sachin-Bansal94/talentdash.git
 cd talentdash
 
 # 2. Install dependencies
@@ -35,7 +35,7 @@ npm run dev
 
 Verify:
 ```bash
-curl http://localhost:3000/health
+curl https://talentdash-backend-2yo6.onrender.com/health
 # → {"status":"ok"}
 ```
 
