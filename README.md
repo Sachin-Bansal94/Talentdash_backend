@@ -2,7 +2,7 @@
 
 Salary intelligence API for TalentDash. Handles ingestion, normalisation, querying, and comparison of compensation data across companies and levels.
 
-**Live URL:** `https://talentdash.onrender.com`
+**Live URL:** `[https://talentdash.onrender.com](https://talentdash-backend-2yo6.onrender.com/)`
 
 > Replace this with your actual Render URL once deployed.
 
@@ -30,10 +30,8 @@ npx prisma generate
 
 # 5. Start the server
 npm run dev
-# API running on http://localhost:3000
 ```
 
-API is live at `http://localhost:3000`
 
 Verify:
 ```bash
