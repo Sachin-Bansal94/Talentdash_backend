@@ -44,7 +44,6 @@ export const IngestSalarySchema = z.object({
     .min(0.0, 'confidence_score must be >= 0.0')
     .max(1.0, 'confidence_score must be <= 1.0'),
   is_verified: z.boolean().optional().default(false),
-  submitted_at: z.string().datetime().optional(),
 });
 
 export type IngestSalaryInput = z.infer<typeof IngestSalarySchema>;

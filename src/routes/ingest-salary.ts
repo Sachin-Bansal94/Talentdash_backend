@@ -73,19 +73,17 @@ router.post('/', async (req: Request, res: Response) => {
         base_salary: baseSalary,
         bonus,
         stock,
-        total_compensation: totalComp,  // Always our computed value
+        total_compensation: totalComp,
         source: parsed.source,
         confidence_score: parsed.confidence_score,
         is_verified: parsed.is_verified ?? false,
-        submitted_at: parsed.submitted_at ? new Date(parsed.submitted_at) : new Date(),
+        submitted_at: new Date(), // Always server-side timestamp, never trust client
       },
       include: { company: true },
     });
 
-    // Serialise BigInts to strings for JSON
     return res.status(201).json(serializeSalary(salary));
   } catch (err: any) {
-    // DB-level constraint violations (belt-and-suspenders)
     if (err?.code === 'P2002') {
       return res.status(409).json({ error: true, message: 'Duplicate record' });
     }
